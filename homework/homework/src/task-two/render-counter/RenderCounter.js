@@ -6,7 +6,7 @@ const RenderCounter = () => {
 
     useEffect(() => {
         renderCount.current = renderCount.current + 1;
-    });
+    },  );
 
     return <div className="counter-wrapper">
         <span className="render-count">Количество рендеров: {renderCount.current}</span>
